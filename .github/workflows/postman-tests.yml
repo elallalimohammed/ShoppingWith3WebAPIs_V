@@ -33,7 +33,7 @@ jobs:
       - name: Run Postman Collection
         run: |
           newman run ".\postman\MultiApiSolution Tests.postman_collection.json" `
-            --env-var "baseUrl=http://localhost:5001" `
+            --env-var "BaseUrl1=http://localhost:5001" `
             --reporter-html-export results\report.html
 
   
