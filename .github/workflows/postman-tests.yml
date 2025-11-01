@@ -32,7 +32,7 @@ jobs:
       - name: Run Postman Collection
         run: |
           newman run "MultiApiSolution Tests.postman_collection.json" `
-            -e "ShoppingEnvirenement.postman_environement.json" `
+            -e "ShoppingEnvirenement.postman_environment.json" `
             --reporters cli,junit,html `
             --reporter-junit-export results\junit.xml `
             --reporter-html-export results\report.html
