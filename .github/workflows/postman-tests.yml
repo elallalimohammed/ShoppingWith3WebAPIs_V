@@ -29,17 +29,16 @@ jobs:
       - name: Create results folder
         run: New-Item -ItemType Directory -Force -Path results
 
-     
-
-      # 6️⃣ Run Postman Collection from the /postman folder
+      # 6️⃣ Run your Postman collection with hard-coded baseUrl
       - name: Run Postman Collection
         run: |
           newman run ".\postman\MultiApiSolution Tests.postman_collection.json" `
-            
             --env-var "baseUrl=http://localhost:5001" `
             --reporters cli,junit,html `
             --reporter-junit-export results\junit.xml `
             --reporter-html-export results\report.html
+
+  
 
       # 7️⃣ Upload results for viewing in Actions
       - name: Upload test results
