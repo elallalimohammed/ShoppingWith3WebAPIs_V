@@ -24,10 +24,7 @@ jobs:
       - name: Install Newman
         run: npm install -g newman
 
-      # 4️⃣ Debug - list files in repo
-      - name: Debug - list repo files
-        run: Get-ChildItem -Path . -Recurse
-
+    
       # 5️⃣ Create results folder
       - name: Create results folder
         run: New-Item -ItemType Directory -Force -Path results
@@ -35,7 +32,7 @@ jobs:
       # 6️⃣ Run your Postman collection with hard-coded base URL
       - name: Run Postman Collection
         run: |
-          newman run ".\MultiApiSolution Tests.postman_collection.json" `
+          newman run "MultiApiSolution Tests.postman_collection.json" `
             --env-var "baseUrl=http://localhost:5001" `
             --reporters cli,junit,html `
             --reporter-junit-export results\junit.xml `
