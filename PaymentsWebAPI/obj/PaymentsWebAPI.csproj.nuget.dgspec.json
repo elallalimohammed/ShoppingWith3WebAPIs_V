@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\moal\\Documents\\ShoppingWith3WebAPIs\\PaymentsWebAPI\\PaymentsWebAPI.csproj": {}
+    "C:\\Users\\moal\\Documents\\ShoppingWith3WebAPIs\\PaymentsWebAPI\\PaymentsWebAPI.csproj": {}
   },
   "projects": {
-    "c:\\Users\\moal\\Documents\\ShoppingWith3WebAPIs\\PaymentsWebAPI\\PaymentsWebAPI.csproj": {
+    "C:\\Users\\moal\\Documents\\ShoppingWith3WebAPIs\\PaymentsWebAPI\\PaymentsWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\moal\\Documents\\ShoppingWith3WebAPIs\\PaymentsWebAPI\\PaymentsWebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\moal\\Documents\\ShoppingWith3WebAPIs\\PaymentsWebAPI\\PaymentsWebAPI.csproj",
         "projectName": "PaymentsWebAPI",
-        "projectPath": "c:\\Users\\moal\\Documents\\ShoppingWith3WebAPIs\\PaymentsWebAPI\\PaymentsWebAPI.csproj",
+        "projectPath": "C:\\Users\\moal\\Documents\\ShoppingWith3WebAPIs\\PaymentsWebAPI\\PaymentsWebAPI.csproj",
         "packagesPath": "C:\\Users\\moal\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\moal\\Documents\\ShoppingWith3WebAPIs\\PaymentsWebAPI\\obj\\",
+        "outputPath": "C:\\Users\\moal\\Documents\\ShoppingWith3WebAPIs\\PaymentsWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

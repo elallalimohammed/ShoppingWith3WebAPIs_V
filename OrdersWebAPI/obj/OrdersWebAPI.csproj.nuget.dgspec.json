@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\moal\\Documents\\ShoppingWith3WebAPIs\\OrdersWebAPI\\OrdersWebAPI.csproj": {}
+    "C:\\Users\\moal\\Documents\\ShoppingWith3WebAPIs\\OrdersWebAPI\\OrdersWebAPI.csproj": {}
   },
   "projects": {
-    "c:\\Users\\moal\\Documents\\ShoppingWith3WebAPIs\\OrdersWebAPI\\OrdersWebAPI.csproj": {
+    "C:\\Users\\moal\\Documents\\ShoppingWith3WebAPIs\\OrdersWebAPI\\OrdersWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\moal\\Documents\\ShoppingWith3WebAPIs\\OrdersWebAPI\\OrdersWebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\moal\\Documents\\ShoppingWith3WebAPIs\\OrdersWebAPI\\OrdersWebAPI.csproj",
         "projectName": "OrdersWebAPI",
-        "projectPath": "c:\\Users\\moal\\Documents\\ShoppingWith3WebAPIs\\OrdersWebAPI\\OrdersWebAPI.csproj",
+        "projectPath": "C:\\Users\\moal\\Documents\\ShoppingWith3WebAPIs\\OrdersWebAPI\\OrdersWebAPI.csproj",
         "packagesPath": "C:\\Users\\moal\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\moal\\Documents\\ShoppingWith3WebAPIs\\OrdersWebAPI\\obj\\",
+        "outputPath": "C:\\Users\\moal\\Documents\\ShoppingWith3WebAPIs\\OrdersWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
