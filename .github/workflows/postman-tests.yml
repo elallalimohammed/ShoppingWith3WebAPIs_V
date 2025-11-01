@@ -29,13 +29,16 @@ jobs:
         run: New-Item -ItemType Directory -Force -Path results
 
       # Step 5: Run Postman Collection with Environment (PowerShell syntax)
+     
+
       - name: Run Postman Collection
         run: |
-          newman run "MultiApiSolution Tests.postman_collection.json" `
-            -e "ShoppingEnvirenement.postman_environment.json" `
+          newman run ".\MultiApiSolution Tests.postman_collection.json" `
+            -e ".\ShoppingEnvirenment.postman_environment.json" `
             --reporters cli,junit,html `
             --reporter-junit-export results\junit.xml `
             --reporter-html-export results\report.html
+      
 
       # Step 6: Upload test results
       - name: Upload test results
